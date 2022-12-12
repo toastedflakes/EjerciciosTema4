@@ -1,0 +1,67 @@
+// EJERCICIOS TEMA 4
+
+// PRIMERA PARTE IF
+
+var numeroif = -3
+
+if (numerolf <=0) {
+    System.out.println("Es un numero negativo")
+} else {
+    System.out.println("Es un numero positivo")
+}
+
+
+// SEGUNDA PARTE WHILE
+
+var numeroWhile = 0
+
+while (numeroWhile < 3) {
+    System.out.println(numeroWhile);
+    numeroWhile = numeroWhile + 1;
+}
+
+
+// TERCERA PARTE DO WHILE
+
+var numeroWhile = 0
+
+do {
+    numeroWhile = numeroWhile +1;
+    System.out.println(numeroWhile);
+} while (numeroWhile <= 0);
+*/
+
+// CUARTA PARTE FOR
+
+var numeroFor =0;
+
+for (; numeroFor<=3; numeroFor=numeroFor+1) {
+    System.out.println(numeroFor)
+}
+
+
+//QUINTA PARTE SWITCH
+
+var estacion = "invierno"
+
+switch (estacion) {
+    case "primavera":
+        System.out.println("La estacion es primavera")
+        break;
+
+    case "verano":
+        System.out.println("La estacion es verano")
+        break;
+
+    case "otoño":
+        System.out.println("La estacion es otoño")
+        break;
+
+    case "invierno":
+        System.out.println("La estacion es invierno") 
+        break;
+
+    default:
+        System.out.println("La estacion actual es invierno")
+        break;
+}
